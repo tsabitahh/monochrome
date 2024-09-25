@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>New Tab</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="container">
+
+      <!--icons-->
+      <ul class="navbar">
+        <li><a href="https://github.com/tsabitahh"><i class="fa fa-github" style="font-size: 25px"></i></a></li>
+        <li><a href="#"><i class="fa fa-code" style="font-size: 25px"></i></a></li>
+        <li><a href="https://www.google.com/"><i class="fa fa-google" style="font-size: 25px"></i></a></li>
+        <li><a href="https://opensource.org/license/mit"><i class="fa fa-copyright" style="font-size: 25px"></i></a></li>
+      </ul>
+
+      <!--brand-->
+      <div class="title">
+        Google
+        <p class="subhead">monochrome</p>
+      </div>
+
+      <!--search bar-->
+      <div class="bar">
+        <input type="text" class="inputSearch" onkeydown="if(event.keyCode == 13) {search(); return false;}" placeholder="Search Google or type a URL">
+        <!--<input type="text" id="inputSearch" placeholder="Search Google or type a URL">-->
+        <div id="output"></div>
+      </div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

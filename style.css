@@ -1,0 +1,44 @@
+html {background-color: #e9ecef;}
+.bar input[type=text] {
+    padding: 15px;
+    margin: 5px;
+    width: 50vw;
+    position: absolute;
+    top: 45%;
+    left: 23%;
+    border-radius: 30px;
+    border: 0.5px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+ul {list-style-type: none;}
+ul li {
+    display: inline;
+    margin: 5px;
+}
+
+a {color: black;}
+
+.navbar {
+    position: absolute;
+    float: right;
+    left: 84vw;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 20px;
+    float: left;
+    color: black;
+}
+
+.title:hover {color: gray}
+.subhead {
+    font-size: 15px;
+    margin-top: 0.2px;
+    text-align: center;
+}
+
+
